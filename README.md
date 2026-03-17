@@ -22,7 +22,7 @@ Apps focused on **reading and rendering** Markdown beautifully.
 |-----|-------|--------|---------|-----------|-------|
 | [MacMD Viewer](https://macmdviewer.com) | $9.99 | SwiftUI | Yes | Yes | Native macOS viewer with live reload, syntax highlighting, and Mermaid diagrams. |
 | [Marked 2](https://marked2app.com) | $13.99 | Yes | No | No | Mature viewer with custom styles and export options. |
-| [Peek](https://apps.apple.com/app/peek-a-quick-look-extension/id1554235898) | Free | Yes | No | Yes | Lightweight QuickLook extension for Markdown. |
+| [Peek](https://www.bigzlabs.com/peek.html) | $7.99 | Yes | No | Yes | Lightweight QuickLook extension for Markdown. |
 
 ## Editors
 
@@ -35,7 +35,7 @@ Apps for **writing** Markdown (with preview).
 | [Ulysses](https://ulysses.app) | $5.99/mo | Yes | Full writing environment with publishing. |
 | [Bear](https://bear.app) | $2.99/mo | Yes | Notes app with Markdown support and beautiful themes. |
 | [Obsidian](https://obsidian.md) | Free | Electron | Knowledge base with bidirectional linking. |
-| [Nota](https://nota.md) | Free | Electron | Pro writing app for Markdown with terminal integration. |
+| [Nota](https://nota.md) | Free (beta) | Electron | Pro writing app for Markdown with terminal integration. Currently in beta. |
 | [MacDown](https://macdown.uranusjr.com) | Free | Yes | Open-source editor. Not actively maintained since 2020. |
 | [Zettlr](https://www.zettlr.com) | Free | Electron | Academic writing with Zettelkasten support. |
 
@@ -45,7 +45,7 @@ Preview `.md` files by pressing Space in Finder.
 
 - [MacMD Viewer](https://macmdviewer.com) — Full-featured QuickLook extension with Mermaid diagrams and syntax highlighting.
 - [QLMarkdown](https://github.com/sbarex/QLMarkdown) — Open-source QuickLook generator for Markdown files.
-- [Glance](https://github.com/samuelmeuli/glance) — All-in-one Quick Look plugin for developers.
+- [Glance](https://github.com/samuelmeuli/glance) — All-in-one Quick Look plugin for developers. *(Archived, no longer maintained.)*
 
 ## CLI Tools
 
