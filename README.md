@@ -2,6 +2,16 @@
 
 > A curated list of the best Markdown tools, viewers, editors, and resources for macOS.
 
+**Maintained by the developer of [MacMD Viewer](https://macmdviewer.com).** MacMD is
+listed here alongside its competitors, including the free ones, in alphabetical order.
+If an entry is wrong, open an issue — corrections are merged, including ones that make
+MacMD look worse.
+
+**Prices and dates verified 2026-08-05.** App Store prices and update dates come from
+Apple's iTunes Lookup API; repository status comes from the GitHub API; direct-download
+prices come from the vendor's own page. Entries marked `—` are ones where the vendor
+does not publish the information.
+
 ## Contents
 
 - [Viewers](#viewers)
@@ -16,50 +26,55 @@
 
 ## Viewers
 
-Apps focused on **reading and rendering** Markdown beautifully.
+Apps focused on **reading and rendering** Markdown rather than writing it.
 
-| App | Price | Native | Mermaid | QuickLook | Notes |
-|-----|-------|--------|---------|-----------|-------|
-| [MacMD Viewer](https://macmdviewer.com) | $9.99 | SwiftUI | Yes | Yes | Native macOS viewer with live reload, syntax highlighting, and Mermaid diagrams. |
-| [Marked 2](https://marked2app.com) | $13.99 | Yes | No | No | Mature viewer with custom styles and export options. |
-| [Peek](https://www.bigzlabs.com/peek.html) | $7.99 | Yes | No | Yes | Lightweight QuickLook extension for Markdown. |
+| App | Price | Last updated | Notes |
+|-----|-------|--------------|-------|
+| [Kite](https://www.kitemarkdown.com) | $14.99 | — | Quick Look previews for `.md` plus an editor. Direct download, not on the App Store. |
+| [MacMD Viewer](https://macmdviewer.com) | $19.99 | 2026-08-01 | Native SwiftUI viewer. Live reload, Mermaid diagrams, Quick Look extension, 12 document themes. |
+| [Marked 2](https://marked2app.com) | $13.99 | 2025-03-11 | Mature previewer with custom styles and export options. Pairs with an external editor. |
+| [OpenMark](https://openmarkapp.com) | $9.99 | 2026-04-23 | Markdown viewer aimed at AI-generated documents. |
+| [Peek](https://www.bigzlabs.com/peek.html) | $7.99 | 2022-04-02 | Lightweight Quick Look extension for Markdown. |
+| [QuickMD](https://apps.apple.com/us/app/quickmd/id6757681819) | Free | 2026-07-28 | Reader with live reload and editor hand-off. |
+| [Read.md](https://apps.apple.com/us/app/read-md/id6760943472) | Free | 2026-07-23 | Reading-focused renderer: code blocks, tables, diagrams. |
+| [Readdown](https://readdown.app) | Free | — | Viewer with Finder Quick Look support. Direct download. |
 
 ## Editors
 
-Apps for **writing** Markdown (with preview).
+Apps for **writing** Markdown, with preview.
 
-| App | Price | Native | Notes |
-|-----|-------|--------|-------|
-| [Typora](https://typora.io) | $14.99 | Electron | WYSIWYG Markdown editor. Seamless live preview. |
-| [iA Writer](https://ia.net/writer) | $49.99 | Yes | Minimalist writing app with focus mode. |
-| [Ulysses](https://ulysses.app) | $5.99/mo | Yes | Full writing environment with publishing. |
-| [Bear](https://bear.app) | $2.99/mo | Yes | Notes app with Markdown support and beautiful themes. |
-| [Obsidian](https://obsidian.md) | Free | Electron | Knowledge base with bidirectional linking. |
-| [Nota](https://nota.md) | Free (beta) | Electron | Pro writing app for Markdown with terminal integration. Currently in beta. |
-| [MacDown](https://macdown.uranusjr.com) | Free | Yes | Open-source editor. Not actively maintained since 2020. |
-| [Zettlr](https://www.zettlr.com) | Free | Electron | Academic writing with Zettelkasten support. |
+| App | Price | Notes |
+|-----|-------|-------|
+| [Bear](https://bear.app) | Free download, subscription for sync | Notes app with Markdown support and a well-regarded theme set. |
+| [iA Writer](https://ia.net/writer) | $49.99 | Minimalist writing app with focus mode. |
+| [MacDown](https://macdown.uranusjr.com) | Free | Open source. **Last release 0.7.3 in January 2020; last commit July 2023.** Still works, no longer developed. |
+| [Nota](https://nota.md) | — | Markdown writing app with terminal integration. |
+| [Obsidian](https://obsidian.md) | Free for personal use | Knowledge base with bidirectional linking. Commercial use requires a paid licence. |
+| [Typora](https://typora.io) | $14.99 | WYSIWYG Markdown editor with seamless live preview. |
+| [Ulysses](https://ulysses.app) | Free download, subscription | Full writing environment with publishing. |
+| [Zettlr](https://www.zettlr.com) | Free | Open source, academic writing with Zettelkasten support. |
 
 ## QuickLook Plugins
 
 Preview `.md` files by pressing Space in Finder.
 
-- [MacMD Viewer](https://macmdviewer.com) — Full-featured QuickLook extension with Mermaid diagrams and syntax highlighting.
-- [QLMarkdown](https://github.com/sbarex/QLMarkdown) — Open-source QuickLook generator for Markdown files.
-- [Glance](https://github.com/samuelmeuli/glance) — All-in-one Quick Look plugin for developers. *(Archived, no longer maintained.)*
+- [MacMD Viewer](https://macmdviewer.com) — Quick Look extension with Mermaid diagrams and syntax highlighting, bundled with the app.
+- [QLMarkdown](https://github.com/sbarex/QLMarkdown) — Open source Quick Look generator. **Actively maintained: release 1.5.2, June 2026.**
+- [Glance](https://github.com/samuelmeuli/glance) — All-in-one Quick Look plugin. **Repository archived since 2020; last release 1.2.0.**
 
 ## CLI Tools
 
-- [Glow](https://github.com/charmbracelet/glow) — Render Markdown in the terminal with style.
-- [mdcat](https://github.com/swsnr/mdcat) — `cat` for Markdown. Renders in terminal.
-- [grip](https://github.com/joeyespo/grip) — Preview GitHub-flavored Markdown locally.
-- [pandoc](https://pandoc.org) — Universal document converter. Markdown to anything.
+- [Glow](https://github.com/charmbracelet/glow) — Render Markdown in the terminal with style. Actively maintained (2.1.2, April 2026).
+- [mdcat](https://github.com/swsnr/mdcat) — `cat` for Markdown. **Repository archived; last release December 2024.**
+- [grip](https://github.com/joeyespo/grip) — Preview GitHub-flavored Markdown locally in a browser.
+- [pandoc](https://pandoc.org) — Universal document converter. Markdown to almost anything.
 - [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) — Lint your Markdown files.
 
 ## Mermaid & Diagrams
 
-- [Mermaid](https://mermaid.js.org) — JavaScript-based diagramming and charting tool from text.
-- [Mermaid Live Editor](https://mermaid.live) — Online editor for Mermaid diagrams.
-- [MacMD Viewer](https://macmdviewer.com) — Renders Mermaid diagrams inline within Markdown files on Mac.
+- [Mermaid](https://mermaid.js.org) — Text-to-diagram tool. Flowcharts, sequence diagrams, Gantt charts.
+- [Mermaid Live Editor](https://mermaid.live) — Browser editor for Mermaid diagrams.
+- [MacMD Viewer](https://macmdviewer.com) — Renders Mermaid diagrams inline inside `.md` files, including in Quick Look.
 - [kroki](https://kroki.io) — Unified API for 20+ diagram types.
 
 ## Converters
@@ -89,7 +104,8 @@ Preview `.md` files by pressing Space in Finder.
 
 ## Contributing
 
-Contributions welcome! Open a PR to add a tool or resource.
+Contributions welcome — open a PR to add a tool, fix a price, or correct a status.
+Please link to the source that proves the fact you are changing.
 
 ## License
 
